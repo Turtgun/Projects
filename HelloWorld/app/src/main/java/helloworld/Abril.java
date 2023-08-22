@@ -1,7 +1,5 @@
 package helloworld;
 
-import javax.print.event.PrintEvent;
-
 public class Abril {
     public static void run() {
         System.out.print("    SEM 2023\n  Java Program\n     Launch!\n================\n       ^\n       ^\n");
@@ -45,5 +43,6 @@ public class Abril {
             }
             System.out.println("|");
         }
+        System.out.print("    [-----]\n     |###|\n      |#|\n       #\n      <#>\n     (###)\n    {~~~~~}\n   {~~} {~~}\n  {~~}   {~~}\n {~~~~} {~~~~}\n{~~~~~} {~~~~~}");
     }
 }
