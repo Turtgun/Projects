@@ -5,6 +5,12 @@ package usingobjects;
 
 public class App {
     public static void main(String[] args) {
-        UsingObjects.rollDice();
+        //UsingObjects.rollDice();
+        //UsingObjects.calcDistance();
+        PASET_TWO.convertFtoC();
+        PASET_TWO.circle();
+        PASET_TWO.change();
+        PASET_TWO.time();
+        PASET_TWO.sumDigits();
     }
 }
