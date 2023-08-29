@@ -36,17 +36,6 @@ public class UsingObjects
      */
     public static void calcDistance()
     {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the cents: ");
-        int change = scan.nextInt();
-        int penn = change;
-        int quart = penn/25;
-        penn %= 25;
-        int dime = penn/10;
-        penn %= 10;
-        int nick = penn/5;
-        penn %= 5;
-        System.out.println("The coins for " + change + " cents will be " + quart + " quarters, " + dime + " dimes, " + nick + " nickels, and " + penn + " pennies.");
     }
     
 }

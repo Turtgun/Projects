@@ -48,9 +48,11 @@ public class PASET_TWO {
     }
     public static void sumDigits() {
         try {
-            System.out.print("Enter a positive two-digit integer: " );
-            String n = scan.nextLine();
-            int f = Integer.parseInt(n.charAt(0));
-        } catch (Exception e) { System.out.println("TU ERES ESTUPIDO"); }
+            System.out.print("Enter a positive two-digit integer: ");
+            String n = scan.next();
+            int f = Character.getNumericValue(n.charAt(0));
+            int l = Character.getNumericValue(n.charAt(1));
+            System.out.println(f+l);
+        } catch (Exception e) { System.out.println("TU ERES ESTUPIDO " + e.getMessage()); }
     }
 }
