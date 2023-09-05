@@ -1,4 +1,4 @@
-package usingobjects;
+package helloworld;
 
 import java.util.Scanner;
 
@@ -29,13 +29,4 @@ public class UsingObjects
         }
         System.out.println("Average result of rolls: " + (double)totalRollResult/rolls + " from " + rolls + " rolls.");
     }
-    
-    /**
-     * Method will prompt the user for the coordinates of two point 
-     * objects, create them and then calculate the distance betweeen them
-     */
-    public static void calcDistance()
-    {
-    }
-    
 }

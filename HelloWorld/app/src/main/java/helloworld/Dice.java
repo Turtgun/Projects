@@ -1,4 +1,4 @@
-package usingobjects;
+package helloworld;
 
 public class Dice {
     int roll() {

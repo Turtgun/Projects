@@ -5,8 +5,16 @@ package helloworld;
 
 public class App {
     public static void main(String[] args) {
-        NepalFlag.run();
-        Andy.run();
-        Abril.run();
+        PASET_ONE.nepalFlag();
+        PASET_ONE.andy();
+        PASET_ONE.abril();
+
+        PASET_TWO.convertFtoC();
+        PASET_TWO.circle();
+        PASET_TWO.change();
+        PASET_TWO.time();
+        PASET_TWO.sumDigits();
+
+        
     }
 }
