@@ -28,5 +28,6 @@ public class UsingObjects
             totalRollResult += result;
         }
         System.out.println("Average result of rolls: " + (double)totalRollResult/rolls + " from " + rolls + " rolls.");
+        kybd.close();
     }
 }

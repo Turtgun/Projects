@@ -20,5 +20,8 @@ public class App {
         PASET_THREE.run2();
         PASET_THREE.run3();
         PASET_THREE.run4();
+        PASET_THREE.run5();
+        PASET_THREE.run6();
+        PASET_THREE.run7();
     }
 }
