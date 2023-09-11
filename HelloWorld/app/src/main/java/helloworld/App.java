@@ -8,14 +8,15 @@ public class App {
         /*
         PASET_ONE.nepalFlag();
         PASET_ONE.andy();
+        */
         PASET_ONE.abril();
-        *//*
+        /* 
         PASET_TWO.convertFtoC();
         PASET_TWO.circle();
         PASET_TWO.change();
         PASET_TWO.time();
         PASET_TWO.sumDigits();
-        */
+        *//* 
         PASET_THREE.run1();
         PASET_THREE.run2();
         PASET_THREE.run3();
@@ -23,5 +24,6 @@ public class App {
         PASET_THREE.run5();
         PASET_THREE.run6();
         PASET_THREE.run7();
+        */
     }
 }
