@@ -3,14 +3,15 @@
  */
 package helloworld;
 
+import java.io.IOException;
+
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         PASET_ONE.nepalFlag();
         PASET_ONE.andy();
-        */
         PASET_ONE.abril();
-        /* 
+        *//* 
         PASET_TWO.convertFtoC();
         PASET_TWO.circle();
         PASET_TWO.change();
@@ -25,5 +26,7 @@ public class App {
         PASET_THREE.run6();
         PASET_THREE.run7();
         */
+        PASET_FIVE.MathMethods.run();
+        PASET_FIVE.StringMethodsPart2.run();
     }
 }
