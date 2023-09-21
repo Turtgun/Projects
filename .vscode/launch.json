@@ -6,15 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "app",
+            "name": "App",
             "request": "launch",
-            "mainClass": ""
+            "mainClass": "helloworld.App",
+            "projectName": "HelloWorld-app"
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
+        }
     ]
 }
