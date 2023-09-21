@@ -10,7 +10,7 @@ import java.io.IOException;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class StringMethods
+public class PASET_FOUR
 {
     /** complete the following methods as described below **/
     
@@ -24,8 +24,6 @@ public class StringMethods
      */
     public static String hello(String str)
     {
-        
-        
         return "Hello " + str + "!"; //modify to return the proper value
     }
         
@@ -68,9 +66,7 @@ public class StringMethods
      *    average(1, 5, 2) → 2.6666666666
      */
     public static double average(int num1, int num2, int num3)
-    {
-        
-        
+    {   
         return (num1 + num2 + num3)/3.0; //modify to return the proper value
     }
     
@@ -78,7 +74,7 @@ public class StringMethods
     
     
     /** Do not modify the code below **/
-    public static void main(String[] args) throws IOException
+    public static void run() throws IOException
     {
         /******************************************************/
         

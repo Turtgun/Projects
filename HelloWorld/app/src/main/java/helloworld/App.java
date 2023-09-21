@@ -25,6 +25,8 @@ public class App {
         PASET_THREE.run5();
         PASET_THREE.run6();
         PASET_THREE.run7();
+        *//*
+        PASET_FOUR.run();
         */
         PASET_FIVE.MathMethods.run();
         PASET_FIVE.StringMethodsPart2.run();

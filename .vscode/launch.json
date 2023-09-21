@@ -6,10 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "StringMethods",
+            "name": "app",
             "request": "launch",
-            "mainClass": "helloworld.StringMethods",
-            "projectName": "HelloWorld-app"
+            "mainClass": ""
         },
         {
             "type": "java",
@@ -17,12 +16,5 @@
             "request": "launch",
             "mainClass": "${file}"
         },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "helloworld.App",
-            "projectName": "HelloWorld-app"
-        }
     ]
 }

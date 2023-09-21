@@ -16,6 +16,10 @@ public class PASET_FIVE {
             this.x = x;
             this.y = y;
         }
+        @Override
+        public String toString() {
+            return "(" + x + ", " + y + ")";
+        }
     }
     public static class MathMethods
     {
@@ -34,8 +38,7 @@ public class PASET_FIVE {
         */
         public static double distance(Point pt)
         {
-            
-            return 0.0;
+            return Math.sqrt(Math.pow(pt.x,2) + Math.pow(pt.y,2));
         }
         
         /*
@@ -43,8 +46,7 @@ public class PASET_FIVE {
         */
         public static int randIntGen(int low, int high)
         {
-            
-            return 0;
+            return (int)(Math.random() * (high - low) + low);
         }
         
         /*
@@ -52,8 +54,7 @@ public class PASET_FIVE {
         */
         public static int randIntGen(int high)
         {
-            
-            return 0;
+            return (int)(Math.random()*high);
         }
         
         /*
@@ -61,8 +62,7 @@ public class PASET_FIVE {
         */
         public static int randIntGenInclusive(int low, int high)
         {
-            
-            return 0;
+            return (int)(Math.random()*(high-low+1) + low);
         }
         
         /** Do not modify the code below **/
@@ -214,7 +214,8 @@ public class PASET_FIVE {
             */
             public static String removeVowels(String str)
             {   
-                return str.replace("a", ""); //modify to return the proper value
+                return str.replace("a", "").replace("e", "").replace("i", "").replace("o", "").replace("u", "")
+                .replace("A", "").replace("E", "").replace("I", "").replace("O", "").replace("U", ""); //modify to return the proper value
             }
             
             
