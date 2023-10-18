@@ -3,6 +3,7 @@ package helloworld;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
+import java.time.*;
 
 public class PASET_SIX {
     /** complete the following methods as described below **/
@@ -134,9 +135,8 @@ public class PASET_SIX {
      */
     public static int dayOfWeek(int month, int day, int year)
     { 
-        /* to be implemented */
-
-        return -1;
+        int val = DayOfWeek.from(LocalDate.of(year, month, day)).getValue();
+        return (val == 7)?0:val;
     }
 
     /** Returns the String representing the day of the week for the given 
@@ -145,9 +145,16 @@ public class PASET_SIX {
      */
     public static String dayOfWeekString(int dayWeek)
     { 
-        /* to be implemented */
-
-        return null;
+        return switch (dayWeek) {
+            case 0 -> "Sunday";
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            default -> "Out of bounds";
+        };
     }
 
     /** Do not modify the code below **/
@@ -166,7 +173,9 @@ public class PASET_SIX {
         return (3 + 365*(year - 1800) + numberOfLeapYears(1800, year-1)) % 7;
     }
 
-    /** Returns n, where month, day, and year specify the nth day of the year.
+    /** Returns n, where month, day, and year specify the nth da
+     * +
+     *  of the year.
      *    Returns 1 for January 1 (month = 1, day = 1) of any year.
      *    Precondition: The date represented by month, day, year is a valid date.
      */

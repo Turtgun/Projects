@@ -8,8 +8,7 @@
             "type": "java",
             "name": "App",
             "request": "launch",
-            "mainClass": "helloworld.App",
-            "projectName": "HelloWorld-app"
+            "mainClass": "helloworld.App"
         },
         {
             "type": "java",
